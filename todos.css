@@ -1,0 +1,24 @@
+p{
+	font-family: Georgia;
+	padding: 15px;
+	;
+}
+h4{
+	background: orange;
+	border: 5px solid green;
+}
+h3{
+	font-size: 50px;
+	text-align: center;
+}
+body{
+	background: url(https://blog.hostbaby.com/wp-content/uploads/2014/03/Trees_1920x1234.png);
+	background-repeat: repeat;
+}
+table{
+	border: 5px solid black;
+	text-align: center;
+}
+td{
+	border: 3px solid black;
+}

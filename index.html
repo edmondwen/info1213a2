@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<title>Assigment 1</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="todos.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	
+<h3> Edward's work resume!</h3>
+<!-- nav copied -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFCC99;" >
+  <a class="navbar-brand" href="#">My information tab!</a>
+  <!-- sandwich -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ <!-- sandwich -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">My Doctor's degree!</a>
+      </li>
+  </ul>
+
+       <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</div>
+</nav>
+<!-- nav stuff-->
+
+<h4>
+ A <em> <strong> newly </strong> </em>graduated doctor that is enthusiastic with his work in web development. He is a skilled and a smart student that has graduated from med school when he was just 18 years old. Edward loves to spend his free time reading books and playing with his beautiful dog Jordan. 
+</h4>
+
+<a href="index(page2).html"> <strong> For more information about me, go to my second page!!!</strong> </a>
+
+<!-- Popover -->
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();
+});
+</script>
+
+<button type="button" class="btn btn-md btn-primary" data-toggle="popover" title="On my second page!" data-content="More information about myself including my education and such.">CLICK THIS!</button>
+<hr> 
+<!-- Popover -->
+<div class="container">
+<div class="row">
+	<div class="co-lg-8"> </div>
+<img alt = "Doctor"
+src ="https://bestveterinarycareblog.files.wordpress.com/2017/06/12.jpg">
+
+</div>
+</div>
+<form>
+<!--My editing parts -->
+ <h4>Edward's work experience  </h4>
+ <div class="co-sm-8"> </div>
+	<div class="row">	
+<ul>
+	<li> Working with doctors without borders</li>
+	<li> Veternarian at St.Joesph clinic</li>
+	<li> Doctor assistant at Virginia Hospital</li>
+</ul>
+
+</div>
+</form>
+<!-- Dropdowns -->
+<div class="btn-group">
+  <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    More information about my work experience!
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Working with doctors without borders</a>
+    <a class="dropdown-item" href="#">Veternarian at St.Joseph clinic</a>
+    <a class="dropdown-item" href="#">Doctor Assistant</a>
+  </div>
+</div>
+
+<!-- Dropdowns -->
+<hr>
+<!-- Forms -->
+<h4>  Enter your Full name please.  </h4>
+<form>
+   <div class="row">
+    <div class="col-lg-6">
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="col-lg-6">
+      <input type="text" class="form-control" placeholder="Last name">
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<!-- Forms -->
+<!-- Input stuff -->
+<form>
+ <div class="input-group mb-6">
+ <div class="col-lg-6">
+
+  <input type="text" class="form-control" placeholder="Please enter email here.">
+  <div class="input-group-append">
+    <span class="input-group-text" id="basic-addon2">@example.com</span>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</div>
+</div>
+
+</form>
+
+<!-- Input stuff -->
+
+
+
+	
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+
+
+
+</html>

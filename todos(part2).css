@@ -1,0 +1,60 @@
+body{
+	background: url(https://blog.hostbaby.com/wp-content/uploads/2014/03/Trees_1920x1234.png);
+	background-repeat: repeat;
+}
+
+h3{
+	font-size: 50px;
+	text-align: center;
+}
+h1{
+	font-family: Georgia;
+	padding: 15px;
+	border: 5px solid green;
+	background: orange;
+}w
+
+table{
+	width: 400px;
+}
+th{
+	text-align: left;
+	background: #0232;
+}
+
+table, th, td{
+	border: 2px solid #000;
+	border-collapse: collapse;
+}
+
+th, td{
+	padding: 10px;
+}
+
+.w-100 {
+  width: 100% !important;
+  height: 75vh;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 100px;
+  color: orange;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 100px;
+  color: orange;
+}
